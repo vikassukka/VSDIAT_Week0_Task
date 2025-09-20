@@ -50,13 +50,12 @@ RISC-V Reference SoC Tapeout Program VSD
 
 
 
-![SoC flow diagram 1](docs/soc_flow1.png)
-![SoC flow diagram 2](docs/soc_flow2.png)
+
 
 
 ## Tool Installation
 
-### Yosys
+##yosys
 ```bash
 sudo apt-get update
 git clone https://github.com/YosysHQ/yosys.git
@@ -68,12 +67,17 @@ sudo apt install make build-essential clang bison flex \
 make config-gcc
 make
 sudo make install
-**###Icarus Verilog (iverilog)**
+
+
+
+
+
+##Icarus Verilog (iverilog)
 
 sudo apt-get update
 sudo apt-get install iverilog
 
-**##GTKWave**
+##GTKWave
 sudo apt-get update
 sudo apt install gtkwave
 
