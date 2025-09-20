@@ -5,6 +5,30 @@ RISC-V Reference SoC Tapeout Program VSD
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //soc design flow 
 In the week 0 lecture explained about SYSTEM ON CHIP(SOC)
 STEP1:
@@ -41,31 +65,32 @@ o3=o4 (gatelevel vs layout)
 INSTALLATION OF YOSIS,IVERILOG,GTKWAVE
 Installation Yosys
 
- sudo apt-get update
- git clone https://github.com/YosysHQ/yosys.git
- cd yosys
- sudo apt install make (If make is not installed please install it)
- sudo apt-get install build-essential clang bison flex \
+$ sudo apt-get update
+$ git clone https://github.com/YosysHQ/yosys.git
+$ cd yosys
+$ sudo apt install make (If make is not installed please install it)
+$ sudo apt-get install build-essential clang bison flex \
  libreadline-dev gawk tcl-dev libffi-dev git \
  graphviz xdot pkg-config python3 libboost-system-dev \
  libboost-python-dev libboost-filesystem-dev zlib1g-dev
- make config-gcc
- make
- sudo make install
+$ make config-gcc
+$ make
+$ sudo make install 
+
 
  ![yosys](https://github.com/user-attachments/assets/af987ce6-2f2b-48ea-a545-db3df2826e72)
 
 
 Installation of iverilog
-sudo apt-get update
-sudo apt-get install iverilog 
+$sudo apt-get update
+$sudo apt-get install iverilog 
 
 ![iverilog](https://github.com/user-attachments/assets/ba4f3d2c-2824-42ac-a08c-badc102faa62)
 
 
 Installation of gtkwave
-sudo apt-get update
-sudo apt install gtkwave 
+$sudo apt-get update
+$sudo apt install gtkwave 
 
 ![gtkwave](https://github.com/user-attachments/assets/05a03a88-8ae9-46b0-8e1e-0364332048a6)
 
